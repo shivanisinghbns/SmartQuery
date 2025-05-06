@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 # MongoDB setup (update credentials as needed)
-client = MongoClient("mongodb+srv://TESTUSER:t8VI8V7301N3CsIS@rasatracker.9oete.mongodb.net/?retryWrites=true&w=majority&appName=RASATracker")
+client = MongoClient(" your mongouri")
 db = client["test_db"]
 
 # Known collections
